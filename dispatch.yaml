@@ -1,0 +1,9 @@
+dispatch:
+  - url: "*/_ah/spi/*"
+    module: default
+  - url: "*/tasks/*"
+    module: default
+  - url: "*/favicon.ico"
+    module: frontend
+  - url: "*/*"
+    module: frontend
