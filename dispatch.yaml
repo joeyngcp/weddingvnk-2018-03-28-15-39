@@ -1,3 +1,6 @@
+runtime: go
+api_version: go1
+
 dispatch:
   - url: "*/_ah/spi/*"
     module: default
@@ -5,5 +8,7 @@ dispatch:
     module: default
   - url: "*/favicon.ico"
     module: frontend
+  - url: "*/googleae8f4bcce8bec00c.html"
+    module: ownership
   - url: "*/*"
     module: frontend
